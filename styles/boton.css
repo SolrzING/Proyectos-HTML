@@ -1,0 +1,43 @@
+.boton_calcular {
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	width: 160px;
+	height: 50px;
+	border: 2px solid #006663;
+	border-radius: 7px 7px 7px 7px;
+	background-color: #00B3AD;
+	box-shadow: none;
+	cursor: pointer;
+}
+.boton_calcular:hover {
+	border-color: #B33F00;
+	background-color: white;
+	box-shadow: none;
+}
+.boton_calcular .boton_calcular_texto {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1em;
+	box-sizing: border-box;
+	display: block;
+	background-color: unset;
+	position: relative;
+	padding: 15px 15px 15px 15px;
+}
+.boton_calcular:hover .boton_calcular_texto {
+	color: #662400;
+
+}
+
+.boton_calcular:active {
+	color: #ffffff;
+	border-color: #B33F00;
+	background-color: #F6D32DFF;
+	box-shadow: none;
+}

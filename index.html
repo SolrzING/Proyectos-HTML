@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculo de IMC</title>
+	<!--Estilos de la pagina-->
+	<link rel="stylesheet" href="styles/style.css" />
+	<link rel="stylesheet" href="styles/tablas.css" />
+	<link rel="stylesheet" href="styles/boton.css" />
+</head>
+<body>
+	<h1 class="texto_encabezado">Calculo de Indice de Masa Corporal </h1>
+	<br><br><br>
+
+	<!--Tablas-->
+	<div class="separacion_tablas">
+		<!--1° tabla -->
+		<table class="entradaDatos">
+			<thead>
+				<tr>
+					<th>Ingresa Tus Datos Aqui</th>
+
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><span class="texto3">Altura</span> <input type="number" id="altura" class="texto2" placeholder="Altura (m)" /></td>
+				</tr>
+				<tr>
+					<td><span class="texto3">Peso</span> <input type="number" id="peso" class="texto2" placeholder="Peso (kg)" /></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td><br><br><button class="boton_calcular" type="submit"><span class='boton_calcular_texto' >Calcular</span></button><br><br></td>
+				</tr>
+			</tfoot>
+		</table>
+
+		<!--2° tabla -->
+		<table class="mostrarResultados">
+			<thead>
+				<tr>
+					<th>Resultados:</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img id="resultado_imagen" src="" width="295px"/></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td id="resultado_texto"><br><br></td>
+				</tr>
+				<tr><td></td></tr>
+			</tfoot>
+		</table>
+	</div>
+	<br><br><br><br><br><br>
+	<table class="creditos">
+		<tbody>
+			<tr><td>&nbsp;</td></tr>
+			<tr><td>Creditos:</td></tr>
+			<tr>
+				<td>Creador: Carlos Ramirez</td>
+				<td>Instructor: Victor Esteller</td>
+			</tr>
+			<tr>&nbsp;</tr>
+		</tbody>
+		<tfoot>
+			<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+		</tfoot>
+	</table>
+
+	<!--Codigo de java script-->
+	<script src="codigo.js"></script>
+</body>
+</html>
